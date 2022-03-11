@@ -104,7 +104,7 @@
 
 /* WHAT WE DO SECTION */
 
-.wwd-group {
+.wwd-wrapper {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -116,9 +116,100 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 300px;
+      width: 400px;
+      margin-bottom: 30px;
+}
+
+.wwd-heading {
+      font-size: 38px;
 }
 
 .wwd-title {
       font-size: 20px;
 }
+
+/* PORTFOLIO SECTION */
+
+.p-container {
+      width: 80%;
+      margin: 0 auto;
+}
+
+.portfolio-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.p-card {
+      margin-bottom: 40px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+      width: 100%;
+      background-image: url("assets/backgrounds/c_image.jpg");
+}
+
+.contact-heading {
+      font-size: 38px;
+      color: white;
+}
+
+.inputs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+}
+
+.input {
+      width: 620px;
+      height: 70px;
+      background-color: transparent;
+      color: white;
+      margin-bottom: 10px;
+}
+
+.input::placeholder { 
+      color: white;
+}
+
+.input:focus {
+      background-color: transparent;
+      color: white;
+      outline: 3px solid #c77447;
+      border: none;
+}
+
+.msg {
+      background-color: transparent;
+      width: 100%;
+      height: 250px;
+}
+
+.msg::placeholder {
+      color: white;
+}
+
+.msg:focus {
+      background-color: transparent;
+      color: white;
+      outline: 3px solid #c77447;
+      border: none;
+}
+
+
+.send-btn {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 24px;
+      text-transform: uppercase;
+}
+
