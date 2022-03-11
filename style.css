@@ -66,10 +66,6 @@
 }
 
 /* ABOUT SECTION */
-/* .about.container {
-      width: 100%;
-      margin: 0 auto;
-} */
 
 .about-title {
       font-size: 38px;
@@ -78,5 +74,30 @@
 
 .about-desc {
       font-size: 20px;
+      line-height: 50px;
+}
+
+/* SERVICES SECTION */
+
+.services {
+      width: 100%;
+      background-image: url("assets/backgrounds/s_image.jpg");
+      background-size: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.services-wrapper {
+      margin: 50px auto;
+}
+
+.services-title {
+      font-size: 38px;
+      color: white;
+}
+
+.services-desc {
+      font-size: 20px;
+      color: white;
       line-height: 50px;
 }
