@@ -1,3 +1,7 @@
+/* 
+Author: Nimrod Musungu
+*/
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -216,7 +220,22 @@
 
 /* FOOTER SECTION */
 
+.footer {
+      position: relative;
+}
+
 .footer-social img{
       margin-right: 20px;
+}
+
+.top {
+      position: absolute;
+      right: 40px;
+      bottom: 40px;
+}
+
+.top img {
+      width: 40px;
+      height: 40px;
 }
 
