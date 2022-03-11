@@ -101,3 +101,24 @@
       color: white;
       line-height: 50px;
 }
+
+/* WHAT WE DO SECTION */
+
+.wwd-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.wwd-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+}
+
+.wwd-title {
+      font-size: 20px;
+}
