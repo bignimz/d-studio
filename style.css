@@ -123,6 +123,7 @@ Author: Nimrod Musungu
       align-items: center;
       width: 400px;
       margin-bottom: 30px;
+      cursor: pointer;
 }
 
 .wwd-heading {
@@ -131,6 +132,23 @@ Author: Nimrod Musungu
 
 .wwd-title {
       font-size: 20px;
+}
+
+/* WHAT WE DO HOVER TEXT */
+
+.design {
+      display: none;
+      line-height: 40px;
+}
+
+.development {
+      display: none;
+      line-height: 40px;
+}
+
+.product {
+      display: none;
+      line-height: 40px;
 }
 
 /* PORTFOLIO SECTION */
@@ -226,6 +244,10 @@ Author: Nimrod Musungu
 
 .footer-social img{
       margin-right: 20px;
+}
+
+.footer-social img:hover {
+      opacity: .5;
 }
 
 .top {
