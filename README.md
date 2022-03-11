@@ -2,6 +2,10 @@
 
 This is a landing page of a fictitious Studio company. This is week 3 independent project meant to practice on using Boostrap and JQuery frameworks.
 
+## Project Design Preview
+
+![Project design preview](assets/delani-studio.jpg)
+
 ## Author
 
 Nimrod Musungu<br>
