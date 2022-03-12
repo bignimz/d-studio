@@ -56,8 +56,6 @@ Author: Nimrod Musungu
       75% {
             bottom: -40%;
       }
-
-
 }
 
 
@@ -187,6 +185,7 @@ Author: Nimrod Musungu
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
+      position: relative;
 }
 
 .input {
@@ -195,6 +194,7 @@ Author: Nimrod Musungu
       background-color: transparent;
       color: white;
       margin-bottom: 10px;
+     
 }
 
 .input::placeholder { 
@@ -206,6 +206,37 @@ Author: Nimrod Musungu
       color: white;
       outline: 3px solid #c77447;
       border: none;
+}
+
+/* Input Error */
+.name-error {
+      position: absolute;
+      top: 0px;
+      font-size: 20px;
+      background-color: #fa4141;
+      padding: 20px;
+      width: 620px;
+      color: white;
+      display: none;
+}
+
+.email-error {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      padding: 20px;
+      width: 620px;
+      background-color: #fa4141;
+      color: white;
+      font-size: 20px;
+      display: none;
+}
+
+#form-success {
+      display: none;
+      width: 800px;
+      margin: 0 auto;
+      margin-bottom: 20px;
 }
 
 .msg {
@@ -259,5 +290,20 @@ Author: Nimrod Musungu
 .top img {
       width: 40px;
       height: 40px;
+      position: absolute;
+      bottom: 40px;
+      right: 50px;
+      animation: top 2s infinite;
+
 }
 
+/* Animate the Top Arrow */
+@keyframes top {
+      50% {
+            bottom: 40px;
+      }
+
+      75% {
+            bottom: 20px;
+      }
+}
