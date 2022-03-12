@@ -121,15 +121,20 @@
             <!-- Contact Section -->
             <section class="contact py-5">
                   <h2 class="contact-heading text-center text-uppercase mb-4">Contact us</h2>
+                  <div class="alert alert-success" id="form-success" role="alert">
+                        
+                      </div>
                   <div class="form-group container">
-                        <form action="#">
+                        <form action="#" id="form">
                               <div class="inputs">
-                                    <input type="text" class="form-control input" placeholder="Name...">
-                                    <input type="email" class="form-control input" placeholder="Email...">
+                                    <input type="text" id="name" class="form-control input" placeholder="Name...">
+                                    <span class="name-error">*Name cannot be empty*</span>
+                                    <input type="email" id="email" class="form-control input" placeholder="Email...">
+                                    <span class="email-error">*Email cannot be empty*</span>
                               </div>
-                              <textarea name="" id="" class="form-control msg" placeholder="Your message here..."></textarea>
+                              <textarea name="" id="message" class="form-control msg" placeholder="Your message here..."></textarea>
                               <div>
-                                    <input type="button" value="Submit" class="btn btn-lg btn-dark send-btn">
+                                    <input type="button" id="submit" value="Submit" class="btn btn-lg btn-dark send-btn">
                               </div>  
                         </form>
                   </div>
